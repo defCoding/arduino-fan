@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>I'm an Arduino Fan</title>
+    </head>
+    <body>
+            <form style="width: 100%" action="/btn" method="POST">
+                <input type="hidden" name="state" value="1" />
+                <button style="margin: auto; margin-bottom: 50px; width: 800px; height: 200px; display: block; font-size: 40px">
+                    Turn on Fan
+                </button>
+            </form>
+            <form style="width: 100%" action="/btn" method="POST">
+                <input type="hidden" name="state" value="0" />
+                <button style="margin: auto; width: 800px; height: 200px; display: block; font-size: 40px">
+                    Turn off Fan
+                </button>
+            </form>
+        </div>
+    </body>
+</html>
